@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>乐购(legou.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
-    <meta name="description" content="乐购legou.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐购(legou.com)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <meta name="description" content="乐购LEGOU-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。" />
     <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,乐购" />
-    <!--引入样式-->
+    <!-- 引入样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -14,21 +15,34 @@
 </head>
 
 <body>
-    <!--1.顶部-->
+    <!-- 1. 顶部 -->
     <div class="topbar">
-        <!--内容容器-->
+        <!-- 内容容器 -->
         <div class="container clearfix">
-            <p class="fl"><a href="#">www.legou.com</a></p>
+            <p class="fl">
+                <a href="#">www.legou.com</a>
+            </p>
             <p class="fr">
-                <sqan>欢迎光临<a href="#">乐购</a></sqan> <span>请<a href="#" class="login">登录</a>\<a href="#">注册</a></span></p>
+                <span>欢迎光临
+                    <a class="title" href="#">乐购</a>
+                </span>,
+                <span>请
+                    <a href="#" class="login">登录</a>\
+                    <a class="register" href="#">注册</a>
+                </span>
+            </p>
         </div>
     </div>
-    <!--2.导航-->
+
+    <!-- 2. 导航 -->
     <div class="nav container">
-        <div class=" search-shopcart-order clearfix">
-            <!-- 购物车和订单 -->
-            <div class=" shopcart-order fr">
-                <button>&emsp;购物车<span>3</span></button>
+        <!-- 搜索框&购物车&订单 -->
+        <div class="search-shopcart-order clearfix">
+            <!-- 购物车&订单 -->
+            <div class="shopcart-order fr">
+                <button>
+                    <span></span><span>购物车</span><span>3</span>
+                </button>
                 <button>我的订单</button>
             </div>
             <!-- 搜索框 -->
@@ -37,13 +51,13 @@
                 <span></span>
             </div>
         </div>
-        <!--分类导航-->
+        <!-- 分类导航 -->
         <div class="category-menu clearfix">
-            <!--左侧-->
+            <!-- 左侧 -->
             <div class="left-logo fl">
                 <img src="./images/logo.jpg" alt="">
             </div>
-            <!--右侧-->
+            <!-- 右侧 -->
             <ul class="fr clearfix">
                 <li>图书</li>
                 <li>电子书</li>
@@ -59,9 +73,10 @@
             </ul>
         </div>
     </div>
-    <!--3.分类导航和banner-->
+
+    <!-- 3. 分类导航和banner -->
     <div class="menu container clearfix">
-        <!--左侧导航-->
+        <!-- 左侧导航 -->
         <div class="sideMenu fl">
             <ul>
                 <li>
@@ -206,27 +221,36 @@
                 </li>
             </ul>
         </div>
-        <!--右侧banner-->
+        <!-- 右侧banner -->
         <div class="banner fr">
-            <!--轮播容器-->
-            <!--轮播开始-->
-            <div class="pptbox" id="banner">
+            <!-- 轮播容器 -->
+            <div class="pptbox" id="bannerInner">
                 <!--轮播的内容-->
                 <ul class="innerwrapper">
                     <li>
-                        <a href="#"><img src="images/banner(1).jpg" /></a>
+                        <a href="#">
+                            <img src="images/banner1.jpg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/banner(2).jpg" /></a>
+                        <a href="#">
+                            <img src="images/banner2.jpg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/banner1.jpg" /></a>
+                        <a href="#">
+                            <img src="images/banner3.jpg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/banner2.jpg" /></a>
+                        <a href="#">
+                            <img src="images/banner4.jpg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/banner3.jpg" /></a>
+                        <a href="#">
+                            <img src="images/banner5.jpg" />
+                        </a>
                     </li>
                 </ul>
                 <!--数字控制器-->
@@ -243,292 +267,500 @@
             </div>
         </div>
     </div>
-    <!--4.今日推荐-->
+
+    <!-- 4. 今日推荐 -->
     <div class="recommend container">
-        <!--标题-->
-        <h1 class="title">
-            乐购·今日推荐
-        </h1>
-        <!--推荐内容-->
-        <div class="recommend-content">
-            <ul>
+        <h1 class="title">乐购·今日推荐</h1>
+        <div class="recommend-list">
+            <ul class="clearfix">
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
                     <img src="./images/mouse.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">黑爵青峰侠六键游戏鼠标</p>
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
                     <p class="text">全国联保 一年免费包换</p>
-                    <p class="price">￥:299</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
                 <li>
-                    <img src="./images/index06_11.jpg" alt="">
-                    <p class="limit-time"><img src="./images/limitTime.jpg" alt=""></p>
-                    <p class="desc">小熊家用静音加湿器</p>
-                    <p class="text">唯美外观 微米级喷雾</p>
-                    <p class="price">￥:89</p>
+                    <img src="./images/mouse.jpg" alt="">
+                    <p class="icon">
+                        <img src="./images/index05_18.jpg" alt="">
+                    </p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">￥: 299</p>
                 </li>
             </ul>
         </div>
     </div>
-    <!--5.电子书-->
+
+    <!-- 5. 电子书 -->
     <div class="floorBox ebooks container clearfix">
-        <!--左侧盒子-->
-        <div class="left-box fl">
-            <!--顶部-->
-            <div class="top clearfix">
-                <!--左侧标题-->
-                <h1 class="title fl">
-                    图书·电子书
-                </h1>
-                <!--右侧导航-->
-                <ul class="ebooks-nav fr">
+        <!-- 左侧 -->
+        <div class="ebooks-left-box fl">
+            <!-- 顶部 -->
+            <div class="ebooks-top clearfix">
+                <!-- 标题 -->
+                <h1 class="ebooks-title fl">图书·电子书</h1>
+                <!-- 电子书导航 -->
+                <ul class="ebooks-nav fr clearfix">
                     <li class="active">最新上架</li>
                     <li>独家畅销</li>
                     <li>电子书</li>
                 </ul>
             </div>
-            <!--内容-->
-            <div class="content clearfix">
-                <!--左侧广告-->
-                <div class="ads fl">
+            <!-- 内容 -->
+            <div class="ebooks-content clearfix">
+                <!-- 左侧广告 -->
+                <div class="ebooks-left-ads fl">
                     <div class="top-img">
-                        <img src="./images/top-img.jpg">
+                        <img src="./images/ebooks-ads.jpg" alt="">
                     </div>
-                    <div class="bottom-text">
-                        <ul>
-                            <li>中小学教辅</li>
-                            <li>外语</li>
-                            <li>考试</li>
-                            <li>小说</li>
-                            <li>文学</li>
-                            <li>青春文学</li>
-                            <li>成功/励志</li>
-                            <li>管理</li>
-                            <li>历史</li>
-                            <li>哲学/宗教</li>
-                            <li>亲子/家教</li>
-                            <li>全部分类></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--右侧列表-->
-                <!--1-->
-                <div class="ebooks-list fr">
-                    <ul>
-                        <li>
-                            <!--轮播容器-->
-                            <!--轮播开始-->
-                            <div class="pptbox ebooks-banner">
-                                <!--轮播的内容-->
-                                <ul class="innerwrapper">
-                                    <li>
-                                        <a href="#"><img src="./images/ebooks1.jpg" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><img src="images/banner(2).jpg" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><img src="images/banner1.jpg" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><img src="images/banner2.jpg" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><img src="images/banner3.jpg" /></a>
-                                    </li>
-                                </ul>
-                                <!--数字控制器-->
-                                <ul class="controls">
-                                    <li class="current">1</li>
-                                    <li>2</li>
-                                    <li>3</li>
-                                    <li>4</li>
-                                    <li>5</li>
-                                </ul>
-                                <!--按钮控制器-->
-                                <span class="btnleft"></span>
-                                <span class="btnright"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
-                        <li>
-                            <p class="title">奥运狂欢</p>
-                            <p class="promotion-tixt">10万种电子书 直降40%</p>
-                            <img src="./images/ebooks-list.jpg">
-                            <p class="price">￥49</p>
-                        </li>
+                    <ul class="text-nav clearfix">
+                        <li>中小学教辅</li>
+                        <li>外语</li>
+                        <li>考试</li>
+                        <li>小说</li>
+                        <li>文学</li>
+                        <li>青春文学</li>
+                        <li>成功\励志</li>
+                        <li>管理</li>
+                        <li>历史</li>
+                        <li>哲学\宗教</li>
+                        <li>亲子\家教</li>
+                        <li>全部分类 ></li>
                     </ul>
                 </div>
+                <!-- 右侧图书列表 -->
+                <!-- 1 -->
+                <ul class="ebooks-list fr">
+                    <li>
+                        <!-- 轮播容器 -->
+                        <div class="pptbox ebooks-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                        <a href="#">
+                                            <img src="images/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/banner5.jpg" />
+                                        </a>
+                                    </li> -->
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <!-- <li>4</li>
+                                    <li>5</li> -->
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>奥运狂欢111</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+
+                </ul>
+                <!-- 2 -->
+                <ul class="ebooks-list fr">
+                    <li>
+                        <!-- 轮播容器 -->
+                        <div class="pptbox ebooks-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner4.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner5.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>奥运狂欢222</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+
+                </ul>
+                <!-- 3 -->
+                <ul class="ebooks-list fr">
+                    <li>
+                        <!-- 轮播容器 -->
+                        <div class="pptbox ebooks-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner4.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner5.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+                    <li>
+                        <p>奥运狂欢</p>
+                        <p>10万种电子书 直降40%</p>
+                        <img src="./images/ebooks-list.jpg" alt="">
+                        <p>￥ 49</p>
+                    </li>
+
+                </ul>
             </div>
         </div>
-        <!--右侧盒子-->
-        <div class="right-box fr">
-            <!--标题-->
-            <h3 class="title">新书畅销榜</h3>
-            <ul>
+        <!-- 右侧 -->
+        <div class="ebooks-right-box fr">
+            <h1 class="ebooks-list-title">新书畅销榜</h1>
+            <ul class="ebooks-rank-list">
                 <li>
-                    <p class="ebooks-title">1.从你的全世界路过</p>
-                    <p class="clearfix desc ">
-                        <img class="fl" src="./images/ebooks.jpg">从你的全世界路过 入选央视“2014中国好书”的80后作品！ 十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                    <p class="ebooks-title">
+                        1.从你的全世界路过
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 从你的全世界路过 入选央视“2014中国好书”的80后作品！ 十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">2.不必太张扬，是花自然香，是爱自然长</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">2 不必太张扬，是花自然香，是爱自然长
+                    <p class="ebooks-title">
+                        2.不必太张扬，是花自然香，是爱自然长
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 不必太张扬，是花自然香，是爱自然长
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">3.去鸡零狗碎的生活里寻找热爱吧</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">3 去鸡零狗碎的生活里寻找热爱吧
+                    <p class="ebooks-title">
+                        3.去鸡零狗碎的生活里寻找热爱吧
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 去鸡零狗碎的生活里寻找热爱吧
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">4.坚定点，走向我</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">4 坚定点，走向我
+                    <p class="ebooks-title">
+                        4.坚定点，走向我
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 坚定点，走向我
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">5.不用焦虑，做自己就好</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">5 不用焦虑，做自己就好
+                    <p class="ebooks-title">
+                        5.不用焦虑，做自己就好
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 不用焦虑，做自己就好
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">6.永远热爱自己，热爱生活</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">6 永远热爱自己，热爱生活
+                    <p class="ebooks-title">
+                        6.永远热爱自己，热爱生活
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 永远热爱自己，热爱生活
                     </p>
                 </li>
                 <li>
-                    <p class="ebooks-title">7.希望你快乐，更希望你的快乐是我</p>
-                    <p class="clearfix desc">
-                        <img class="fl" src="./images/ebooks.jpg">7 希望你快乐，更希望你的快乐是我
+                    <p class="ebooks-title">
+                        7.希望你快乐，更希望你的快乐是我
+                    </p>
+                    <p class="detail clearfix">
+                        <img class="fl" src="./images/ebook-rank.jpg" alt=""> 希望你快乐，更希望你的快乐是我
                     </p>
                 </li>
             </ul>
         </div>
     </div>
-    <!--6.服装-->
-    <div class="floorBox clothes container clearfix">
-        <div class="clothes-title clearfix ">
-            <h1 class="fl ">服装</h1>
-            <ul class="clothes-nav fr clearfix ">
-                <li class="active ">女装内衣</li>
+
+    <!-- 6. 服装 -->
+    <div class="floorBox clothes clothe container">
+        <div class="clothes-title clearfix">
+            <h1 class="fl">服装</h1>
+            <ul class="clothes-nav fr clearfix">
+                <li class="active">女装内衣</li>
                 <li>热销男装</li>
                 <li>精品鞋靴</li>
             </ul>
         </div>
-        <div class="clothes-content ">
+        <div class="clothes-content">
             <!-- 服装展示 -->
             <!-- 1 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/clothes-left 1.jpg " alt=" ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包111</li>
                         <li>防嗮品111</li>
                         <li>短裤111</li>
@@ -544,76 +776,76 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# "><img src="./images/clothes-left 2.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/banner3.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/banner2.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport4.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg " alt=" ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- 2 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/clothes-left 1.jpg " alt=" ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包222</li>
                         <li>防嗮品222</li>
                         <li>短裤222</li>
@@ -629,76 +861,76 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# "><img src="./images/banner3.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/clothes-left 2.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/banner2.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport4.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg " alt=" ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- 3 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/clothes-left 1.jpg " alt=" ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包333</li>
                         <li>防嗮品333</li>
                         <li>短裤333</li>
@@ -714,122 +946,123 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# "><img src="./images/clothes-left 2.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport2.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport3.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport4.jpg " /></a>
-                                </li>
-                                <li>
-                                    <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg " alt=" ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/clothes-right 2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- 品牌logo列表 -->
-            <div class="brand-list ">
+            <div class="brand-list">
                 <ul>
                     <li>
-                        <img src="./images/logo 1.jpg " alt=" ">
+                        <img src="./images/logo13_11.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 2.jpg " alt=" ">
+                        <img src="./images/logo13_12.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 3.jpg " alt=" ">
+                        <img src="./images/logo13_14.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 4.jpg " alt=" ">
+                        <img src="./images/logo13_15.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo5.jpg " alt=" ">
+                        <img src="./images/logo13_16.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo6.jpg " alt=" ">
+                        <img src="./images/logo13_17.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo7.jpg " alt=" ">
+                        <img src="./images/logo13_11.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo8.jpg " alt=" ">
+                        <img src="./images/logo13_12.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo9.jpg " alt=" ">
+                        <img src="./images/logo13_14.jpg" alt="">
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
     <!-- 7. 户外运动 -->
-    <div class="floorBox clothes clothe container ">
-        <div class="clothes-title clearfix ">
-            <h1 class="fl ">户外运动</h1>
-            <ul class="clothes-nav fr clearfix ">
+    <div class="floorBox clothes sports container">
+        <div class="clothes-title clearfix">
+            <h1 class="fl">户外运动</h1>
+            <ul class="clothes-nav fr clearfix">
                 <li class="active ">国际名品</li>
                 <li>户外装备</li>
                 <li>运动潮流</li>
             </ul>
         </div>
-        <div class="clothes-content ">
+        <div class="clothes-content">
             <!-- 服装展示 -->
             <!-- 1 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/sport-lift.jpg ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/ads02.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包111</li>
                         <li>防嗮品111</li>
                         <li>短裤111</li>
@@ -845,45 +1078,39 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# ">
-                                        <img src="./images/户外运动/sport1.jpg " />
-                                    </a>
+                                    <a href="# "><img src="./images/户外运动/sport4.jpg " /></a>
                                 </li>
                                 <li>
-                                    <a href="# ">
-                                        <img src="./images/户外运动/sport2.jpg " />
-                                    </a>
+                                    <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
                                 </li>
                                 <li>
-                                    <a href="# ">
-                                        <img src="./images/户外运动/sport3.jpg " />
-                                    </a>
+                                    <a href="# "><img src="./images/户外运动/sport3.jpg " /></a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
                             <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
                         </li>
@@ -894,7 +1121,7 @@
                             <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
                             <img src="./images/户外运动/sport-right2.jpg " alt=" ">
                         </li>
@@ -908,13 +1135,13 @@
                 </div>
             </div>
             <!-- 2 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/sport-lift.jpg ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包222</li>
                         <li>防嗮品222</li>
                         <li>短裤222</li>
@@ -930,70 +1157,76 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport1.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport2.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport3.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- 3 -->
-            <div class="clothes-list clearfix ">
+            <div class="clothes-list clearfix">
                 <!-- 左侧 -->
-                <div class="clothes-catetory fl ">
-                    <div class="top-img ">
-                        <img src="./images/sport-lift.jpg ">
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
                     </div>
-                    <ul class="bottom-clothes-nav clearfix ">
+                    <ul class="bottom-clothes-nav clearfix">
                         <li>女包333</li>
                         <li>防嗮品333</li>
                         <li>短裤333</li>
@@ -1009,501 +1242,673 @@
                     </ul>
                 </div>
                 <!-- 中间 -->
-                <div class="clothes-ads fl ">
-                    <div class="clothes-ads-top ">
-                        <div class="pptbox clothes-banner ">
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
                             <!--轮播的内容-->
-                            <ul class="innerwrapper ">
+                            <ul class="innerwrapper">
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport4.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="# "><img src="./images/户外运动/sport3.jpg " /></a>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
                                 </li>
                             </ul>
                             <!--数字控制器-->
-                            <ul class="controls ">
-                                <li class="current ">1</li>
+                            <ul class="controls">
+                                <li class="current">1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                             <!--按钮控制器-->
-                            <span class="btnleft "></span>
-                            <span class="btnright "></span>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
                         </div>
                     </div>
-                    <div class="clothes-ads-bottom ">
-                        <img src="./images/clothes-left 3.jpg ">
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
                 <!-- 右侧 -->
-                <div class="clothes-list fl ">
-                    <ul class="clothes-list-top clearfix ">
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sprt-right1.jpg " alt=" ">
+                            <img src="./images/index100_05.jpg" alt="">
                         </li>
                     </ul>
-                    <ul class="clothes-list-bottom clearfix ">
+                    <ul class="clothes-list-bottom clearfix">
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                         <li>
-                            <img src="./images/户外运动/sport-right2.jpg " alt=" ">
+                            <img src="./images/index100_11.jpg" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- 品牌logo列表 -->
-            <div class="brand-list ">
+            <div class="brand-list">
                 <ul>
                     <li>
-                        <img src="./images/logo 1.jpg ">
+                        <img src="./images/logo13_11.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 2.jpg ">
+                        <img src="./images/logo13_12.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 3.jpg ">
+                        <img src="./images/logo13_14.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo 4.jpg ">
+                        <img src="./images/logo13_15.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo5.jpg ">
+                        <img src="./images/logo13_16.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo6.jpg ">
+                        <img src="./images/logo13_17.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo7.jpg ">
+                        <img src="./images/logo13_11.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo8.jpg ">
+                        <img src="./images/logo13_12.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/logo9.jpg ">
+                        <img src="./images/logo13_14.jpg" alt="">
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <!--8.童装-->
-    <div class="floorBox children-clothes container ">
-        <!--顶部-->
-        <div class="top clearfix ">
-            <!--左侧标题-->
-            <h1 class="title fl ">
-                童装 童鞋 婴儿装
-            </h1>
-            <!--右侧导航-->
-            <ul class="children-clothes-nav fr ">
+
+    <!-- 8. 童装 -->
+    <div class="floorBox clothes children-clothes container">
+        <div class="clothes-title clearfix">
+            <h1 class="fl">童装 童鞋 婴儿装</h1>
+            <ul class="clothes-nav fr clearfix">
                 <li class="active ">儿童服装</li>
                 <li>婴儿装</li>
                 <li>小潮童鞋</li>
             </ul>
         </div>
-        <!--左侧盒子-->
-        <div class="left-box fl ">
-            <!--内容-->
-            <div class="content clearfix ">
-                <!--左侧广告-->
-                <div class="ads fl ">
-                    <div class="top-img ">
-                        <img src="./images/儿童服装/children-clothes-lift.jpg ">
+        <div class="clothes-content">
+            <!-- 服装展示 -->
+            <!-- 1 -->
+            <div class="clothes-list clearfix">
+                <!-- 左侧 -->
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/ads01.jpg" alt="">
                     </div>
-                    <div class="bottom-text ">
-                        <ul>
-                            <li>女包</li>
-                            <li>防晒品</li>
-                            <li>短裤</li>
-                            <li>冰丝内裤</li>
-                            <li>男包</li>
-                            <li>功能箱包</li>
-                            <li>蕾丝衬衫</li>
-                            <li>奢侈品</li>
-                            <li>男鞋</li>
-                            <li>女包</li>
-                            <li>女鞋</li>
-                            <li>全部分类></li>
-                        </ul>
+                    <ul class="bottom-clothes-nav clearfix">
+                        <li>女包111</li>
+                        <li>防嗮品111</li>
+                        <li>短裤111</li>
+                        <li>冰丝内裤</li>
+                        <li>男包</li>
+                        <li>功能箱包</li>
+                        <li>蕾丝衬衫</li>
+                        <li>奢侈品</li>
+                        <li>男鞋</li>
+                        <li>女装</li>
+                        <li>女鞋</li>
+                        <li>全部分类 ></li>
+                    </ul>
+                </div>
+                <!-- 中间 -->
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </div>
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
                     </div>
                 </div>
-                <!--左侧轮播-->
-                <div class="children-clothes-list fr ">
-                    <ul>
+                <!-- 右侧 -->
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
                         <li>
-                            <!--轮播容器-->
-                            <!--轮播开始-->
-                            <div class="pptbox " id="children-clothes-banner ">
-                                <!--轮播的内容-->
-                                <ul class="innerwrapper ">
-                                    <li>
-                                        <a href="# "><img src="./images/儿童服装/children-clothes1.jpg " /></a>
-                                    </li>
-                                    <li>
-                                        <a href="# "><img src="./images/儿童服装/children-clothes2.jpg " /></a>
-                                    </li>
-                                    <li>
-                                        <a href="# "><img src="./images/儿童服装/children-clothes3.jpg " /></a>
-                                    </li>
-                                    <li>
-                                        <a href="# "><img src="./images/儿童服装/children-clothes4.jpg " /></a>
-                                    </li>
-                                    <li>
-                                        <a href="# "><img src="./images/户外运动/sport5.jpg " /></a>
-                                    </li>
-                                </ul>
-                                <!--数字控制器-->
-                                <ul class="controls ">
-                                    <li class="current ">1</li>
-                                    <li>2</li>
-                                    <li>3</li>
-                                    <li>4</li>
-                                    <li>5</li>
-                                </ul>
-                                <!--按钮控制器-->
-                                <span class="btnleft "></span>
-                                <span class="btnright "></span>
-                            </div>
+                            <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
                         </li>
                         <li>
-                            <img src="./images/clothes-left 3.jpg ">
+                            <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
+                        </li>
+                        <li>
+                            <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
+                        </li>
+                    </ul>
+                    <ul class="clothes-list-bottom clearfix">
+                        <li>
+                            <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
+                        </li>
+                        <li>
+                            <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
+                        </li>
+                        <li>
+                            <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <!--右侧盒子-->
-        <div class="right-box fr ">
-            <div class="right-top-img ">
+            <!-- 2 -->
+            <div class="clothes-list clearfix">
+                <!-- 左侧 -->
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
+                    </div>
+                    <ul class="bottom-clothes-nav clearfix">
+                        <li>女包222</li>
+                        <li>防嗮品222</li>
+                        <li>短裤222</li>
+                        <li>冰丝内裤</li>
+                        <li>男包</li>
+                        <li>功能箱包</li>
+                        <li>蕾丝衬衫</li>
+                        <li>奢侈品</li>
+                        <li>男鞋</li>
+                        <li>女装</li>
+                        <li>女鞋</li>
+                        <li>全部分类 ></li>
+                    </ul>
+                </div>
+                <!-- 中间 -->
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </div>
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
+                    </div>
+                </div>
+                <!-- 右侧 -->
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                    </ul>
+                    <ul class="clothes-list-bottom clearfix">
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="clothes-list clearfix">
+                <!-- 左侧 -->
+                <div class="clothes-catetory fl">
+                    <div class="top-img">
+                        <img src="./images/clothes-left.jpg" alt="">
+                    </div>
+                    <ul class="bottom-clothes-nav clearfix">
+                        <li>女包333</li>
+                        <li>防嗮品333</li>
+                        <li>短裤333</li>
+                        <li>冰丝内裤</li>
+                        <li>男包</li>
+                        <li>功能箱包</li>
+                        <li>蕾丝衬衫</li>
+                        <li>奢侈品</li>
+                        <li>男鞋</li>
+                        <li>女装</li>
+                        <li>女鞋</li>
+                        <li>全部分类 ></li>
+                    </ul>
+                </div>
+                <!-- 中间 -->
+                <div class="clothes-ads fl">
+                    <div class="clothes-ads-top">
+                        <div class="pptbox clothes-banner">
+                            <!--轮播的内容-->
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner1.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner2.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/banner3.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--数字控制器-->
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                            <!--按钮控制器-->
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+                    </div>
+                    <div class="clothes-ads-bottom">
+                        <img src="./images/clothes-ads-bottom.jpg" alt="">
+                    </div>
+                </div>
+                <!-- 右侧 -->
+                <div class="clothes-list fl">
+                    <ul class="clothes-list-top clearfix">
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_05.jpg" alt="">
+                        </li>
+                    </ul>
+                    <ul class="clothes-list-bottom clearfix">
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index100_11.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 品牌logo列表 -->
+            <div class="brand-list">
                 <ul>
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
+                        <img src="./images/logo13_11.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
+                        <img src="./images/logo13_12.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right1.jpg " alt=" ">
+                        <img src="./images/logo13_14.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_15.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_16.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_17.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_11.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_12.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/logo13_14.jpg" alt="">
                     </li>
                 </ul>
             </div>
-            <div class="right-img ">
-                <ul>
+        </div>
+    </div>
+
+    <!-- 9. 家居日用 -->
+    <div class="floorBox daily container">
+        <h1 class="daily-title">家居日用</h1>
+        <div class="daily-content clearfix">
+            <div class="daily-left-box fl">
+                <img src="./images/banner-list03.jpg" alt="">
+            </div>
+            <div class="daily-right-box fr">
+                <ul class="daily-right-top">
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
+                        <img src="./images/index22_05.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
+                        <img src="./images/index22_05.jpg" alt="">
                     </li>
                     <li>
-                        <img src="./images/儿童服装/children-clothes-right2.jpg " alt=" ">
+                        <img src="./images/index22_05.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/index22_05.jpg" alt="">
+                    </li>
+                </ul>
+                <ul class="daily-right-bottom">
+                    <li>
+                        <img src="./images/daily-list.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/daily-list.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/daily-list.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/daily-list.jpg" alt="">
                     </li>
                 </ul>
             </div>
         </div>
-        <!--底部盒子-->
-        <div class="bottom-box fl ">
-            <ul>
-                <li>
-                    <img src="./images/logo 1.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo 2.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo 3.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo 4.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo5.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo6.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo7.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo8.jpg ">
-                </li>
-                <li>
-                    <img src="./images/logo9.jpg ">
-                </li>
+    </div>
+
+    <!-- 10. 推广商品 -->
+    <div class="promotion container">
+        <h3 class="promotion-title clearfix">
+            <p class="fl">推广商品</p>
+            <ul class="fr">
+                <li class="active"></li>
+                <li></li>
             </ul>
-        </div>
-    </div>
-    <!--9.家居日用-->
-    <div class="floorBox daily container ">
-        <h1 class="daily-title ">家居日用</h1>
-        <div class="daily-content clearfix ">
-            <div class="daily-left-box fl ">
-                <img src="./images/daily -lift.jpg " alt=" ">
-            </div>
-            <div class="daily-right-box fr ">
-                <ul class="daily-right-top ">
-                    <li>
-                        <img src="./images/daily-right.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right.jpg " alt=" ">
-                    </li>
-                </ul>
-                <ul class="daily-right-bottom ">
-                    <li>
-                        <img src="./images/daily-right2.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right2.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right2.jpg " alt=" ">
-                    </li>
-                    <li>
-                        <img src="./images/daily-right2.jpg " alt=" ">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--10.推广商品-->
-    <div class="floorBox promotion container ">
-        <!--顶部-->
-        <div class="top clearfix ">
-            <!--左侧标题-->
-            <h3 class="title clearfix ">
-                <p class="fl ">推广商品</p>
-                <ul class="fr ">
-                    <li class="active "></li>
-                    <li></li>
-                </ul>
-            </h3>
-
-        </div>
-        <!--下部分盒子-->
-        <div class="promotion-content ">
-            <div class="out-box ">
-                <div class="inner-box clearfix ">
-                    <!--1-->
-                    <ul class="promotion-list clearfix fl ">
+        </h3>
+        <div class="promotion-content">
+            <div class="out-box">
+                <div class="inner-box clearfix">
+                    <!-- 1 -->
+                    <ul class="promotion-list clearfix fl">
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                     </ul>
-                    <!--2-->
-                    <ul class="promotion-list clearfix fl ">
+                    <!-- 2 -->
+                    <ul class="promotion-list clearfix fl">
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                         <li>
-                            <img src="./images/promotion.jpg " alt=" ">
-                            <p>Pigean法国制奶嘴</p>
+                            <img src="./images/index25_12.jpg" alt="">
+                            <p>Pigeon法国制奶嘴，无</p>
                             <p>毒天然乳胶</p>
-                            <p class="price ">&yen;:189</p>
-                            <p><img src="./images/promotion2.jpg " alt=" ">已有988条评论</p>
+                            <p>￥ ： 189</p>
+                            <p><img src="./images/index27_14.jpg" alt="">已有988条评论</p>
                         </li>
                     </ul>
                 </div>
             </div>
-
         </div>
     </div>
+
     <!-- 11. 尾部 -->
-    <div class="footer ">
-        <div class="logo-list ">
-            <ul class="logo-wrap ">
+    <div class="footer">
+        <div class="logo-list">
+            <ul class="logo-wrap">
                 <li>
-                    <img src="./images/222_11.png " alt=" ">
+                    <img src="./images/222_11.png" alt="">
                 </li>
                 <li>
-                    <img src="./images/222_13(1).png " alt=" ">
+                    <img src="./images/222_13.png" alt="">
                 </li>
                 <li>
-                    <img src="../code/images/222_15.png " alt=" ">
+                    <img src="./images/222_15.png" alt="">
                 </li>
                 <li>
-                    <img src="./images/222_17.png " alt=" ">
+                    <img src="./images/222_17.png" alt="">
                 </li>
             </ul>
         </div>
-        <div class="footer-text container ">
-            <img src="./images/logo_00.png " alt=" ">
+        <div class="footer-text container">
+            <img src="./images/logo_00.png" alt="">
             <ul>
-                <li>购物指南
-                    <dl>购物流程</dl>
-                    <dl>发票制度</dl>
-                    <dl>账户管理</dl>
-                    <dl>会员优惠</dl>
+                <li>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>发票制度</dd>
+                        <dd>账户管理</dd>
+                        <dd>会员优惠</dd>
+                    </dl>
                 </li>
-                <li>支付方式
-                    <dl>货到付款</dl>
-                    <dl>网上支付</dl>
-                    <dl>礼品卡支付</dl>
-                    <dl>银行转账</dl>
+                <li>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>发票制度</dd>
+                        <dd>账户管理</dd>
+                        <dd>会员优惠</dd>
+                    </dl>
                 </li>
-                <li>订单服务
-                    <dl>订单配送查询</dl>
-                    <dl>订单状态说明</dl>
-                    <dl>自动取消订单</dl>
-                    <dl>自动修改订单</dl>
+                <li>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>发票制度</dd>
+                        <dd>账户管理</dd>
+                        <dd>会员优惠</dd>
+                    </dl>
                 </li>
-                <li>退换货
-                    <dl>退换货政策</dl>
-                    <dl>自动申请退换货</dl>
-                    <dl>退换货进度查询</dl>
-                    <dl>退货方式和时间</dl>
+                <li>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>发票制度</dd>
+                        <dd>账户管理</dd>
+                        <dd>会员优惠</dd>
+                    </dl>
                 </li>
-                <li>商家服务
-                    <dl>商家中心</dl>
-                    <dl>运营服务</dl>
-                    <dl>加入唯品会</dl>
+                <li>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>购物流程</dd>
+                        <dd>发票制度</dd>
+                        <dd>账户管理</dd>
+                        <dd>会员优惠</dd>
+                    </dl>
                 </li>
             </ul>
             <p>
@@ -1512,32 +1917,34 @@
             </p>
         </div>
     </div>
+
     <!-- 二维码 -->
-    <div class="qr-code ">
-        <p><img src="./images/two_30.jpg " alt=" "></p>
-        <p class="ticket "><img src="./images/two_35.jpg " alt=" "></p>
-        <div><img src="./images/two_34.jpg " alt=" "></div>
-        <p><img src="./images/two_40.jpg " alt=" "></p>
+    <div class="qr-code">
+        <p><img src="./images/two_30.jpg" alt=""></p>
+        <p class="ticket"><img src="./images/two_35.jpg" alt=""></p>
+        <div><img src="./images/two_34.jpg" alt=""></div>
+        <p><img src="./images/two_40.jpg" alt=""></p>
     </div>
 
     <!-- 楼层滚动 -->
-    <ul class="floor ">
+    <ul class="floor">
         <li>
-            <img src="./images/indexleft_05.png " alt=" "> 图书
+            <img src="./images/indexleft_05.png" alt=""> 图书
         </li>
         <li>
-            <img src="./images/indexleft_08.png " alt=" "> 服装
+            <img src="./images/indexleft_08.png" alt=""> 服装
         </li>
         <li>
-            <img src="./images/indexleft_11.png " alt=" "> 运动
+            <img src="./images/indexleft_11.png" alt=""> 运动
         </li>
         <li>
-            <img src="./images/indexleft_14.png " alt=" "> 童装
+            <img src="./images/indexleft_14.png" alt=""> 童装
         </li>
         <li>
-            <img src="./images/indexleft_17.png " alt=" "> 家居
+            <img src="./images/indexleft_17.png" alt=""> 家居
         </li>
     </ul>
+
     <!--引入jquery-1.11.3.min.js-->
     <script src="./js/轮播插件/jquery-1.11.3.min.js "></script>
     <!--引入轮播插件-->
